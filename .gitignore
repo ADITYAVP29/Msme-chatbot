@@ -1,0 +1,4 @@
+venv_pdf/
+__pycache__/
+*.env
+venv_rasa/

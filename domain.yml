@@ -1,0 +1,20 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_faq
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+
+  utter_goodbye:
+    - text: "Bye"
+
+actions:
+  - action_answer_from_docs   # custom action to read PDF FAQ
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

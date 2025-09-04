@@ -1,0 +1,17 @@
+{
+  "name": "msme-chatbot",
+  "version": "1.0.0",
+  "description": "msme proj",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ngrok": "^5.0.0-beta.2"
+  }
+}

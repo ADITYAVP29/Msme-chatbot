@@ -1,0 +1,37 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - hi there
+    - வணக்கம்
+    - வணக்கங்கள்
+    - good morning
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - goodbye
+    - bye
+    - see you
+    - see you later
+    - take care
+    - பை
+    - மறுபடியும் சந்திப்போம்
+
+- intent: ask_faq
+  examples: |
+    - Tell me about coconut seasons
+    - Which season is best for coconut planting in Tamil Nadu?
+    - Which season is suitable for coconut planting in Kerala?
+    - கோகொநட் நடவு எப்போது செய்ய வேண்டும்?
+    - Provide FAQ from PDF
+    - I have a question about coconut
+    - FAQ
+    - Tell me about coconut seasons
+    - Can you answer my question from PDF?
+
+
